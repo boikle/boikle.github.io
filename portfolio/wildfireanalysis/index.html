@@ -1,0 +1,48 @@
+---
+layout: default
+title: Robert Oikle - Portfolio
+---
+<div class="container portfolio">
+	<div class="columns"> 
+		<div class="column is-8">
+			<div class="columns is-multiline">
+				<div class="column is-2"></div>
+					 <div class="column is-8">
+						 <a href="/assets/images/portfolio/p28large.jpg" class="thumbnail">
+							 <img src="/assets/images/portfolio/p28thumb.jpg" alt="Burn Severity Analysis">
+						 </a>
+					 </div>
+				<div class="column is-2"></div>
+				<div class="column is-6">
+					<a href="/assets/images/portfolio/p29large.jpg" class="thumbnail">
+						<img src="/assets/images/portfolio/p29thumb.jpg" alt="Pre and Post Normalized Burn Ratio Results">
+					</a>
+				</div>
+				<div class="column is-6">
+					<a href="https://github.com/boikle/python_scripts/tree/master/spatial_scripts/burnScarAnalysis" class="thumbnail">
+						<img src="/assets/images/portfolio/p30thumb.jpg" alt="Python Code">
+					</a>
+				</div>
+			</div>
+		</div>
+	<div class="column is-4">
+		<h4 class="title">Wildfire Analysis</h4>
+		<h5 class="subtitle">Description:</h5> 
+		<p>This project performs an analysis on the 2017 Elephant Hill wildfire near Kamloops, British Columbia. Using only open source software to perform this analysis, Python scripts utilizing the GDAL and NumPy libraries calculated the normalized burn ratio (NBR) on Landsat 8 imagery, and QGIS was used to map the results.</p>
+		<p>The analysis began with NBR being calculated on imagery acquired the day prior to the wildfire starting, and also on imagery close to when the wildfire was contained. Following this analysis a difference between the two NBR results was then performed to determine the level of change to the landscape. Using QGIS, the analysis results were then classified based on burn severity using the classification provided <a href="https://burnseverity.cr.usgs.gov/pdfs/LAv4_BR_CheatSheet.pdf">here</a>.</p>
+		<h5 class="subtitle">Project Requirements:</h5>
+			<ul>
+				<li>QGIS</li>
+				<li>Data Analysis with Python, using; 
+					<ul>
+						<li>GDAL</li>
+						<li>NumPy</li>
+					</ul>
+				</li>
+				<li>Landsat 8 Imagery</li>
+				<li>Normalized Burn Ratio</li>
+				<li>Change analysis</li>
+			</ul>
+		</div>
+	</div>
+</div>

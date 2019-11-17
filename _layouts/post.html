@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- Blog Posts -->
+<div class="container">
+	<div class="columns">
+		<div class="column is-12-mobile is-8">
+			<h2>{{ page.title }}</h2>
+			<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+			
+			{{ content }}
+		</div>
+		<div class="column is-hidden-mobile is-4">
+			Blog posts:
+			<ul>
+				{% for post in site.posts %}
+
+				<li>
+					<a href="{{ post.url }}">{{ post.date | date: '%B %d, %Y' }} - {{ post.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
