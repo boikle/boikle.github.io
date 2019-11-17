@@ -1,0 +1,177 @@
+/* --------- General Style Rules ---------- */
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+body>.container {
+	padding-top: 50px;
+}
+.container .columns,
+.container .columns .column.is-4 .title {
+    padding: 20px 10px 10px;
+}
+
+/* -------- List Style Rules ------------- */
+ul {
+    margin-left: 20px;
+}
+li {
+	list-style: disc;
+}
+
+/* -------- Image Style Rules ------------- */
+img {
+    border-radius: 3px;
+}
+img.skillsdivider {
+	width: 500px;
+	height: 800px;
+	max-width: 800px;
+}
+.portfolioimg {
+    width:95%;
+}
+
+/* ---------- Navbar style rules ----------- */
+.navbar {
+    background-color: #222222;
+    font-family: "Georgia, serif";
+    -webkit-box-shadow: 0 8px 6px -6px #333333;
+    -moz-box-shadow: 0 8px 6px -6px #333333;
+    box-shadow: 0 8px 6px -6px #333333; 
+	position: fixed;
+	width: 100%;
+}
+.navbar .navbar-burger {
+	color: #9D9D9D;
+	margin-top: 10px;
+}
+
+.navbar-item, .navbar-link {
+	color: #9D9D9D;
+	align-items: center;
+	font-size: 1.2em;
+}
+
+.navbar .navbar-items > a.navbar-item {
+    transition: ease all 0.2s;
+}
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+    transition: ease all 0.3s;
+    background-color: #222222;
+	color: #FFFFFF;
+}
+.navbar .navbar-brand img {
+	max-height: 200px;
+	margin-right: 50px;
+}
+.navbar .navbar-start {
+	margin-right: 0px;
+	margin-left: auto;
+}
+.navbar .navbar-end {
+	margin-left: 0px;
+}
+.navbar-menu {
+	background-color: #222222;
+}
+
+/* -------- Footer style rules ---------- */
+footer {
+    background-color: #222;
+    border-color: #080808;
+    color: #9D9D9D;
+    width: 100%;
+    padding: 0px 10px;
+    bottom: 0px;
+    font-family: "Georgia, serif";
+    margin-top: 20px;
+    line-height: 25px;
+}
+footer a:link, 
+footer a:visited,
+footer a:active {
+    color: #9D9D9D;
+    text-decoration: none;
+    transition: ease all 0.3s;
+}
+footer a:hover {
+    color: #FFFFFF;
+    transition: ease all 0.3s;
+}
+footer .column.is-half {
+	text-align: center;
+}
+footer .column.is-half.footer_bg {
+	background-image: url('../images/bottom.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	object-fit: cover;
+}
+footer h4 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	border-bottom: dotted 1px #9d9d9d;
+}
+
+/* --------- Homepage style rules -------- */
+.coverpage {
+    padding: 250px 0px 350px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+	background-image: url(../images/cover.jpg);
+	background-position: left;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFF;
+    text-shadow: 2px 2px #333333;
+}
+h1 {
+	font-size: 63px;
+}
+h2 {
+	font-size: 30px;
+}
+#background .container {
+	margin: 80px auto;
+}
+
+/* ------- Fungi Map styling --------- */
+.olMapViewport {
+    border: 1px solid #333333;
+    border-radius: 2px;
+}
+#map .olLayerGrid .olTileImage {
+    max-width: none !important;
+}
+#map #featurePopupWindow {
+    box-sizing: unset !important;
+}
+#map img {
+    max-width: unset !important;
+}
+
+/* -------- Portfolio Page Rules -------------- */
+.portfolio img {
+	opacity: 0.8;
+}
+.portfolio img:hover {
+	opacity: 1;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+	box-shadow: 0px 5px 10px 0px rgba(124,124,124,0.8)
+}
+
+/* --------- Contact Page Rules --------------- */
+iframe.getintouch {
+	min-height: 725px;
+}
+

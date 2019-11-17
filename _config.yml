@@ -1,0 +1,9 @@
+encoding: "utf-8"
+url: "https://oikle.ca"
+baseurl: ""
+root: /
+
+# paginate
+plugins: [jekyll-paginate]
+paginate: 6
+paginate_path: "/blog/page:num/"
