@@ -4,7 +4,7 @@ p {
 	margin-bottom: 10px;
 }
 body>.container {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 .container .columns,
 .container .columns .column.is-4 .title {
@@ -23,11 +23,6 @@ li {
 img {
     border-radius: 3px;
 }
-img.skillsdivider {
-	width: 500px;
-	height: 800px;
-	max-width: 800px;
-}
 .portfolioimg {
     width:95%;
 }
@@ -35,7 +30,7 @@ img.skillsdivider {
 /* ---------- Navbar style rules ----------- */
 .navbar {
     background-color: #222222;
-    font-family: "Georgia, serif";
+    font-family: Arial, sans-serif;
     -webkit-box-shadow: 0 8px 6px -6px #333333;
     -moz-box-shadow: 0 8px 6px -6px #333333;
     box-shadow: 0 8px 6px -6px #333333; 
@@ -43,16 +38,14 @@ img.skillsdivider {
 	width: 100%;
 }
 .navbar .navbar-burger {
-	color: #9D9D9D;
+	color: #098EB0;
 	margin-top: 10px;
 }
-
 .navbar-item, .navbar-link {
-	color: #9D9D9D;
+	color: #098EB0;
 	align-items: center;
 	font-size: 1.2em;
 }
-
 .navbar .navbar-items > a.navbar-item {
     transition: ease all 0.2s;
 }
@@ -69,8 +62,9 @@ a.navbar-item:hover {
 	color: #FFFFFF;
 }
 .navbar .navbar-brand img {
-	max-height: 200px;
+	max-height: 170px;
 	margin-right: 50px;
+	border-radius: 0px;
 }
 .navbar .navbar-start {
 	margin-right: 0px;
