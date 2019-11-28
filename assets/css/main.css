@@ -117,7 +117,7 @@ footer h4 {
 
 /* --------- Homepage style rules -------- */
 .coverpage {
-	padding: 250px 0px 350px 0px;
+	padding: 250px 0px 400px 0px;
 	text-align: center;
 	margin-bottom: 0px;
 	background-image: url(../images/cover.jpg);
@@ -130,7 +130,7 @@ footer h4 {
 }
 .carousel {
 	text-align: center;
-	padding: 35px;
+	padding: 60px;
 }
 .carousel #simple-carousel {
 	margin: 0 auto;
