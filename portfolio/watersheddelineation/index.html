@@ -1,0 +1,57 @@
+---
+layout: default
+title: Robert Oikle - Portfolio
+---
+<div class="container portfolio">
+	<div class="columns"> 
+		<div class="column is-8">
+			<div class="columns is-multiline">
+				 <div class="column is-6">
+					 <a href="/assets/images/portfolio/p31large.jpg" class="thumbnail">
+						 <img src="/assets/images/portfolio/p31thumb.jpg" alt="Watershed Delineation">
+					 </a>
+				 </div>
+				 <div class="column is-6">
+					 <a href="/assets/images/portfolio/p35large.jpg" class="thumbnail">
+						 <img src="/assets/images/portfolio/p35thumb.jpg" alt="DTM vs DSM">
+					 </a>
+				 </div>
+				<div class="column is-4">
+					<a href="https://github.com/boikle/python_scripts/tree/master/spatial_scripts/lidar_processing" class="thumbnail">
+						<img src="/assets/images/portfolio/p32thumb.jpg" alt="Lidar Processing Script">
+					</a>
+				</div>
+				<div class="column is-4">
+					<a href="/assets/images/portfolio/p33large.jpg" class="thumbnail">
+						<img src="/assets/images/portfolio/p33thumb.jpg" alt="LASTools LasView Visualization">
+					</a>
+				</div>
+				<div class="column is-4">
+					<a href="/assets/images/portfolio/p34large.jpg" class="thumbnail">
+						<img src="/assets/images/portfolio/p34thumb.jpg" alt="LASTools LasView Visualization">
+					</a>
+				</div>
+			</div>
+		</div>
+	<div class="column is-4">
+		<h4 class="title">Point Wolfe River Watershed Delineation</h4>
+		<h5 class="subtitle">Description:</h5> 
+		<p>This project performs a delineation of the Point Wolfe River watershed, located next to the Bay of Fundy in New Brunswick. Using LIDAR data provided by the <a href="http://www.snb.ca/geonb1/e/DC/catalogue-E.asp">New Brunswick GeoNB Data Catalogue</a> and processed using the powerful <a href="https://github.com/LAStools/LAStools">LAStools</a>.</p>
+		<p>The workflow for processing the Lidar data included; using LAStools to convert the data into smaller tiles, classifying point data as either ground or non-ground points, calculating the height of points above the ground, classifying calculated height values, and lastly generating both a digital terrain model (DTM) and digital surface model (DSM). Following the production and merger of the DTM tiles, the watershed delineation was performed using ArcGIS Hydrography Spatial Analyst tool set.</p>
+		<h5 class="subtitle">Project Requirements:</h5>
+			<ul>
+				<li>ArcGIS 10.7</li>
+				<li>LIDAR Data processing with Python, using; 
+					<ul>
+						<li>GDAL</li>
+						<li>LAStools</li>
+					</ul>
+				</li>
+				<li>New Brunswick GeoNB Data Catalogue Lidar Data</li>
+				<li>NRCan - 1945-2011 DEM data</li>
+				<li>CanVec Elevation Contour Line features</li>
+				<li>New Brunswick Hydrographic Network data</li>
+			</ul>
+		</div>
+	</div>
+</div>
