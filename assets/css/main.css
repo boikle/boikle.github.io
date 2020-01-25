@@ -36,6 +36,7 @@ img {
 	box-shadow: 0 8px 6px -6px #333333; 
 	position: fixed;
 	width: 100%;
+	z-index: 2000;
 }
 .navbar .navbar-burger {
 	color: #098EB0;
