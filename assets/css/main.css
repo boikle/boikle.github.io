@@ -6,11 +6,12 @@ p {
 body>.container {
 	padding-top: 80px;
 }
-.container .columns,
-.container .columns .column.is-4 .title {
+.container .columns {
 	padding: 20px 10px 10px;
 }
-
+.container .columns .column.is-4 .title {
+	padding-bottom: 20px;
+}
 /* -------- List Style Rules ------------- */
 ul {
 	margin-left: 20px;
