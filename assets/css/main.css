@@ -201,7 +201,7 @@ iframe.getintouch {
 }
 @media screen and ( min-height: 700px ) {
 	.container .columns {
-		min-height: 1000px;	
+		min-height: 1100px;	
 	}
 }
 @media (max-width: 767px) {
