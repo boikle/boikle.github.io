@@ -187,30 +187,35 @@ iframe.getintouch {
 
 /* --------- Responsive design rules ---------- */
 @media (max-width: 1300px) {
-    .carousel #simple-carousel {
-        width: 950px !important;
-    }
+	.carousel #simple-carousel {
+		width: 950px !important;
+	}
 }
 @media (max-width: 1050px) {
-    .carousel #simple-carousel {
-        width: 700px !important;
-    }
+	.carousel #simple-carousel {
+		width: 700px !important;
+	}
 	.carousel #simple-carousel .slide .label {
 		max-width: 40%;
 	}
 }
+@media screen and ( min-height: 700px ) {
+	.container .columns {
+		min-height: 1000px;	
+	}
+}
 @media (max-width: 767px) {
-    .carousel #simple-carousel {
-        width: 500px !important;
-    }
+	.carousel #simple-carousel {
+		width: 500px !important;
+	}
 	.carousel #simple-carousel .slide .label {
 		max-width: 50%;
 	}
 }
 @media (max-width: 616px) {
-    .carousel #simple-carousel {
-        width: 450px !important;
-    }
+	.carousel #simple-carousel {
+		width: 450px !important;
+	}
 	.carousel #simple-carousel .slide .label {
 		max-width: 80%;
 	}
@@ -219,9 +224,9 @@ iframe.getintouch {
 	}
 }
 @media (max-width:500px){
-    .carousel #simple-carousel {
-        width: 350px !important;
-    }
+	.carousel #simple-carousel {
+		width: 350px !important;
+	}
 	.carousel #simple-carousel .slide .label {
 		max-width: 80%;
 	}
