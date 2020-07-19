@@ -11,7 +11,7 @@ I recently tried Electron.js, and am writing this post to share my thoughts and 
 
 For those who aren't familiar with [Electron.js](https://electronjs.org/), it’s a framework which lets you build cross-platform desktop applications using web technologies like JavaScript, HTML and CSS. The framework has been utilized in many well popular projects (e.g. Atom, Slack, Visual Studio Code, etc), and since I frequently code in JavaScript at work, I thought I’d try my hand at Electron.js by creating a simple [countdown timer application](https://github.com/boikle/electron-countdown-timer).
 
-![Countdown Timer](https://github.com/boikle/electron-countdown-timer/blob/master/screenshot/screenshot.png)
+![Countdown Timer](/assets/images/blog/20200719-countdowntimer.png)
 
 When starting fresh with any framework/library, there is always a period of exploration. Some things come easy and others require you to dig deeper, in order to better understand why something is or isn't working. Although Electron was pretty easy to get started with, I've included some bullet points below on some of my initial thoughts on the framework.
 
