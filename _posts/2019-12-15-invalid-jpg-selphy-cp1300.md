@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Bob
+author: Rob
 categories: []
 title: "Resolve invalid jpg file errors in a Selphy CP1300 photo printer"
 tags: ['jpg','Color Profile','Canon Selphy CP1300','Image Magick']

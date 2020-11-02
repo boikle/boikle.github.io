@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Bob
+author: Rob
 categories: []
 tags: ['electron.js','tips','application','app']
 title: "Tips for getting started with Electron.js"

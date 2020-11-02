@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Bob
+author: Rob
 categories: []
 title: "Why you should do a 30 Day challenge and tips to help you succeed"
 tags: ['goals','challenges']

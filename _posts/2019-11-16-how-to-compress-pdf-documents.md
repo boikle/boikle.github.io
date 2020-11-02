@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Bob
+author: Rob
 categories: []
 title: "How to compress a PDF with Image Magick"
 tags: ['Image Magick']
